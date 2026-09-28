@@ -1,0 +1,22 @@
+{
+    "version": "0.24.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ringo380/ccmcp/releases/download/v0.24.0/ccmcp_0.24.0_windows_amd64.zip",
+            "bin": [
+                "ccmcp.exe"
+            ],
+            "hash": "d6a61388875f0f2c63e63db28ce2e761f8fcd54d5e346557fee0f5e71b8f423e"
+        },
+        "arm64": {
+            "url": "https://github.com/ringo380/ccmcp/releases/download/v0.24.0/ccmcp_0.24.0_windows_arm64.zip",
+            "bin": [
+                "ccmcp.exe"
+            ],
+            "hash": "3c918cea91c709f18b6902995156969f93e5ba57be5902e7c816df147a0fe611"
+        }
+    },
+    "homepage": "https://github.com/ringo380/ccmcp",
+    "license": "MIT",
+    "description": "Dynamic CLI + TUI for managing Claude Code MCP servers, plugins, and per-project overrides"
+}
